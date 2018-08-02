@@ -1,0 +1,1330 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+#leftMenu
+{
+	background : #104B7D;
+	vertical-align : top;
+}
+.mainFrame
+{
+	width:100%;
+}
+
+.navigation-menu {
+  /*  display: block;*/
+}
+.navigation-menu .menu-item
+{
+	border-bottom: 1px solid #175F9C;
+    box-shadow: 0 1px #104B7D;
+    font-family: Tahoma,Helvetica,Arial;
+    font-size: 13px;
+    padding: 5px;
+	color:gainsboro;
+}
+.navigation-menu .menu-item a {
+    color: gray;
+    display: block;
+    margin: 0;
+    padding: 7px 10px;
+    text-decoration: none;
+}
+.navigation-menu .menu-item a:hover {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.45);
+    text-decoration: none;
+    color:black;
+}
+.navigation-menu .menu-item .selected a, .navigation-menu .menu-item a.selected {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+    border-radius: 0 0 0 0;
+    border-right: 4px solid #C4302B;
+    color: #333333;
+    font-weight: bold;
+}
+.navigation-menu .sub-menu-item
+{
+	font-family: Tahoma, Helvetica, Arial;
+	font-size: 13px;
+    border-bottom: 1px solid black;
+    -webkit-box-shadow: 0 1px gainsboro;
+    -moz-box-shadow: 0 1px #575e67;
+    box-shadow: 0 1px #3A3938;
+   padding:5px;
+    background:url(../images/back.jpg );
+    color:lightslategrey;
+}
+.cw-StackPanelHeader {
+  padding-left: 7px;
+  padding-bottom:5px;
+}
+.cw-MenuHeader
+{
+	/*padding-left: 5px;*/
+}
+.hyper
+{
+	cursor:pointer;
+	cursor:hand;
+	word-wrap: normal;
+}
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+
+.fullscreen
+{
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+#top
+{
+	background:#D3AF37;
+}
+#footer
+{
+	background : url("images/bg-footer-noise.jpg") repeat-x scroll 0 bottom #1B1B1B;
+	height:35px;
+	color:gainsboro;
+}
+#topline
+{
+	background : url("images/linebar.png") repeat-x scroll 0 bottom;
+	height:2px;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.constrain {
+    margin: 0 auto;
+    max-width: 1240px;
+    padding: 0 20px;
+}
+nav#main {
+    background-color: rgba(0, 0, 0, 0.18);
+    border-left: 1px solid rgba(2, 2, 2, 0.28);
+    border-radius: 10px 10px 0 0;
+    border-right: 1px solid rgba(2, 2, 2, 0.28);
+    border-top: 1px solid rgba(250, 250, 250, 0.27);
+    box-shadow: 0 0 5px rgba(1, 1, 1, 0.7);
+}
+.noScrollbars {
+overflow: hidden !important;
+}
+#top
+{
+	color:white;
+}
+#top a, a:visited {
+  color: white;
+  text-decoration:none;
+}
+
+#top a:hover {
+  color: white;
+  text-decoration:underline;
+}
+.loginBackgroundFG
+{
+	/* background: url(images/back.jpg) ; */
+	color:gainsboro;
+	border:1px solid gainsboro;
+	/*opacity: 0.7;*/
+	border-radius:50;
+	/*margin-left:200;*/
+	margin-top:150;
+	background: dimgray;
+	box-shadow: 1px 2px 1px 1px black;
+}
+.loginBackgroundAN
+{
+	 background: rgba(0, 0, 0, 0.5) none;
+    border: 1px solid gray;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 2px 1px 1px black;
+    color: gainsboro;
+    margin-top: 50px;    
+}
+
+.yt-uix-button-content {
+    background: url("http://s.ytimg.com/yt/imgbin/www-refresh-vflXkUAsM.png") no-repeat scroll -86px 0 transparent;
+    border: medium none;
+    box-shadow: none;
+    display: block;
+    height: 14px;
+    opacity: 0.6;
+    padding: 0;
+    text-indent: -10000px;
+    width: 14px;
+}
+.search-btn-compontent {
+
+    float: right;
+    height: 30px;
+
+}
+.browse-content {
+    background: -moz-linear-gradient(left center , transparent, transparent 165px,
+	rgba(0, 0, 0, 0.08) 194px,
+	rgba(0, 0, 0, 0.12) 195px,
+	transparent 195px,
+	transparent 100%) repeat scroll 0 0 transparent;
+}
+#browse-side-column{
+    margin: 0;
+    padding: 0;
+    width: 195px;
+    background: url("images/menu_back.png") ;
+}
+.roshanback
+{
+	/*background: url(images/roshanpkg_back.png) no-repeat;
+	height:100px;*/
+	background: url("images/back_top.jpg");
+	padding: 14px 0 0 0;
+	clear: both;
+	position: relative;
+	zoom: 1;
+	height:100px;
+	background-size:cover;
+}
+
+.mainPanelAN
+{
+	background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("images/makka_bg.jpg");
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 400px;
+    position: absolute;
+    width: 1024px;      	
+}
+.mainPanelFG
+{
+	/*background:#838080*/
+	background:url("images/tawaf.jpg") no-repeat center center fixed ;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	 -o-background-size: cover;
+  	background-size: cover;
+}
+.mainPanelD
+{
+	background:#F4F3EC;
+}
+/* Suggest Box */
+
+/* la suggest box STANDARD */
+.eu-nextstreet-SuggestFieldPanel {
+
+}
+
+.eu-nextstreet-SuggestFieldPanel .eu-nextstreet-SuggestFieldPanel-left {
+	background-color: #eaeff7;
+}
+
+.eu-nextstreet-SuggestFieldPanel .eu-nextstreet-SuggestFieldPanel-left .eu-nextstreet-SuggestFieldPanel-leftInner
+	{
+	padding: 6px 0 6px 6px;
+}
+
+.eu-nextstreet-SuggestFieldPanel .eu-nextstreet-SuggestFieldPanel-content
+	{
+	background-color: #eaeff7;
+	padding: 6px 0 6px 0;
+}
+
+.eu-nextstreet-SuggestFieldPanel .eu-nextstreet-SuggestFieldPanel-right
+	{
+	background-color: #eaeff7;
+}
+
+.eu-nextstreet-SuggestFieldPanel .eu-nextstreet-SuggestFieldPanel-right .eu-nextstreet-SuggestFieldPanel-rightInner
+	{
+	padding: 6px 6px 6px 0;
+}
+
+.eu-nextstreet-SuggestItemSelected {
+	background-color: #c9dcfe;
+	color: black;
+	font-weight: bold;
+}
+
+.eu-nextstreet-SuggestItemHover {
+	font-weight: bold;
+}
+
+.eu-nextstreet-SuggestMatchingString {
+	font-weight: bold;
+	color: #1aae1d;
+}
+
+.eu-nextstreet-SuggestField {
+	background: white url('img/arrow.png') no-repeat right 5px;
+}
+
+.eu-nextstreet-SuggestPopup {
+	background-color: #eaeff7;
+	border-top: 0px;
+	border-left: 1px solid #c9dcfe;
+	border-bottom: 1px solid #c9dcfe;
+	border-right: 1px solid #c9dcfe;
+	padding: 5px;
+}
+
+.eu-nextstreet-SuggestFieldHover {
+	cursor: pointer;
+}
+
+.eu-nextstreet-AdvancedTextBoxDefaultText {
+	color: #9999BB;
+}
+
+.eu-nextstreet-AdvancedTextBoxErrorText {
+	background-color: #ee4444;
+	color: white;
+	border: red;
+}
+
+.eu-nextstreet-AdvancedTextBoxMandatoryText {
+	background-color: #aa9999;
+}
+
+.eu-nextstreet-AdvancedTextBoxReadOnlyText {
+	background-color: #dddddd;
+	color: gray;
+}
+
+.eu-nextstreet-SuggestFieldPopupSimpleTableCell {
+
+}
+
+.eu-nextstreet-SuggestFieldPopupSimpleTableCell-selected {
+	background-color: #aaffaa;
+}
+
+.eu-nextstreet-SuggestFieldPopupSimpleTableCell-hover {
+	font-weight: bold;
+}
+
+.eu-nextstreet-SuggestTableMatchingString {
+	background: transparent url( img/matching-str-bg.PNG ) repeat-x left top
+		;
+}
+.frameTitle
+{
+	color: darkblue;
+    font-family: Tahoma,Arial,Helvetica,Sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+.framePanel
+{
+	padding:10px;
+	background : url(./images/back.jpg);
+}
+.framePanel_title {
+    font-size: 20px;
+    color: beige;
+}
+.backgroundLabel
+{
+	background:#6f371c;
+	padding:1px 5px 1px 5px;color:white;
+	white-space : nowrap;
+}
+.titleLabel
+{
+	font-family: Tahoma,Arial,Helvetica,Sans-serif;
+    font-size: 11px;
+	border-bottom:1px dashed gray;
+	display: inline;
+}
+.whiteLabel , #loginName
+{
+	font-family: Arial,Helvetica,Sans-serif;
+    font-size: 12px;
+    color:gainsboro;
+    padding-right:10px;
+}
+.f11B
+{
+	font-weight:bold;
+}
+.searchingOptions
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	color : black;
+	background: #CBCBCB;
+	border-bottom:1px solid gray;
+	padding:2px 2px 2px 7px;
+}
+#cord
+{
+	background-color: #F4F3EC;
+}
+#menubar
+{
+	background-color: #1F1F1F;
+}
+@font-face { font-family: JuneBug; src: url('Going Rogue.otf'); }
+.umraOperation
+{
+	font-family: JuneBug;
+
+	font-size: 35px;
+	color:black;
+	padding-left:20px;
+	text-shadow: 0px 0px 7px white;
+	margin-left:10px;
+}
+.loginInfoFlex
+{
+	color:black;
+}
+.flexPartition {
+background: url("http://asset2.cbsistatic.com/cnwk.1d/i/tron/download/rebrand/dots-dark.png") no-repeat center -2px;
+content: "";
+display: inline-block;
+margin: 0 6px 0 9px;
+width: 4px;
+height: 5px;
+}
+.loginLabels
+{
+	color:black;
+}
+.alerts
+{
+	color:rgb(234, 230, 230);
+	font-weight:bold;
+}
+.loginLabels-Calendar
+{
+	color:yellow;
+}
+.loginLabels:hover
+{
+	text-decoration:underline;
+	cursor:pointer;
+}
+.loginLabels-Calendar:hover
+{
+	text-decoration:underline;
+	cursor:pointer;
+}
+ .alertsBlue
+{
+	color:darkred;
+	cursor:pointer;
+	cursor:hand;
+	font-weight:bold;
+}
+.rajjab
+{
+	background : cyan;
+}
+.shaban
+{
+	background : lightgreen;
+}
+.ramadhan
+{
+	background : lightpink;
+}
+.hand
+{
+	cursor: pointer;
+}
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+#wrapper {
+	background: url('images/background.jpg');
+	margin:auto ;
+	padding:0;
+	width:100%;
+	height:100%;
+	
+}
+#frame
+{
+	box-shadow : 1px 1px 10px black;	
+}	
+#bar
+{
+	background: transparent url( images/bg_bar.jpg ) repeat-y;
+	margin:auto ;
+	width:100%;
+	height:100%;
+
+}
+#homebg {
+	background: url( images/hombhpa.jpg) no-repeat;
+	margin:auto ;
+	width:100%;
+	height:350px;
+	border-top:1px solid gray;
+	border-bottom:1px solid gray;
+}
+
+.top
+{
+	color: #ADC276;
+	font-family: Tahoma, Helvetica, Arial;
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 0;
+	text-align: left;
+	text-shadow: 0 1px 5px black;
+	padding : 10px;
+}
+.top_1
+{
+	 color: #999999;
+     font-size: 20px;
+     font-style: normal;
+     padding: 0 0 0 10px;
+     text-shadow: 0 1px 3px #000000;
+}
+#login-top
+{
+	background: url(images/login_back_top.png) no-repeat top center;
+	height: 13px;
+}
+#login-bottom
+{
+	background: url(images/login_back_bottom.png) no-repeat top center;
+	padding-bottom:10px;
+}
+#login
+{
+	width:296px;
+	height:178px;
+}
+#login-component
+{
+	border-left: 1px solid #E1E1E1;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #E1E1E1;
+	border-right: 1px solid #E1E1E1;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #E1E1E1;
+	font-size: 10px;
+	color: #CCC;
+	background: #323232 url(images/bg_bar.jpg) repeat;
+	background-image: url(images/bg_bar.jpg);
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat;
+	background-attachment: initial;
+	background-position-x: initial;
+	background-position-y: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: #323232;
+	min-height: 252px;
+	padding: 0 0 3px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+}
+.myaccount
+{
+	float: left;
+	font: normal 16px 'arial narrow', arial, sans-serif;
+	padding: 0;
+	margin-top: -20px;
+	margin-left: 10px;
+	color: #999999;
+	font-size: 20px;
+	text-shadow: 0 1px 3px #000000;
+	/*
+	float:left;
+	color: #999999;
+    font-size: 20px;
+    font-style: normal;
+    text-shadow: 0 1px 3px #000000;
+	*/
+}
+#login-screen
+{
+	color:white;
+}
+.login-box
+{
+	-moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial Unicode MS,Arial,sans-serif;
+    font-size: small;
+    padding: 2px 3px;
+}
+.login-button
+{
+	-moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    /*background: url("themes/images/hborder.png") repeat-x scroll 0 -2077px #ADC276;*/
+    background : #ADC276;
+    border-color: black;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-size: small;
+    margin: 0;
+    padding: 1px 4px;
+    text-decoration: none;
+}
+#container
+{
+	background: #F4F3EC;
+	height:333px;
+	width:1024px;
+	margin: 0 auto;
+    padding: 0px ;
+}
+.tabmenu_selected
+{
+	background: transparent url(images/tabmenu_selected.jpg) no-repeat;
+	padding:6px 20px 6px 20px;
+}
+.tabmenu_selected a, a:visited
+{
+	color: black;
+ 	text-decoration:none;
+}
+.tabmenu
+{
+	padding:6px 20px 6px 20px;
+	cursor : pointer;
+	cursor: hand;
+
+}
+.tabmenu a, a:visited {
+  color: black;
+  text-decoration:none;
+}
+
+.tabmenu a:hover {
+  color: black;
+  text-decoration:underline;
+}
+.tabmenu_padding
+{
+	padding-left:3px;
+}
+.hand
+{
+	cursor: pointer;
+  cursor: hand;
+}
+.hotLine
+{
+	color: red;
+	font-family: Tahoma, Helvetica, Arial;
+	font-size: 11px;
+	font-weight: bold;
+	letter-spacing: 0;
+	text-align: left;
+	padding-left: 5px;
+    padding-right: 2px;
+}
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+#leftMenu
+{
+	background : #1F1F1F;
+}
+
+.navigation-menu {
+  /*  display: block;*/
+}
+.navigation-menu .menu-item
+{
+	font-family: Tahoma, Helvetica, Arial;
+	font-size: 13px;
+    border-bottom: 1px solid black;
+    -webkit-box-shadow: 0 1px gainsboro;
+    -moz-box-shadow: 0 1px #575e67;
+    box-shadow: 0 1px #3A3938;
+    padding:5px;
+	color:gainsboro;
+}
+.navigation-menu .menu-item a {
+    color: gray;
+    display: block;
+    margin: 0;
+    padding: 7px 10px;
+    text-decoration: none;
+}
+.navigation-menu .menu-item a:hover {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.45);
+    text-decoration: none;
+    color:black;
+}
+.navigation-menu .menu-item .selected a, .navigation-menu .menu-item a.selected {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+    border-radius: 0 0 0 0;
+    border-right: 4px solid #C4302B;
+    color: #333333;
+    font-weight: bold;
+}
+.navigation-menu .sub-menu-item
+{
+	font-family: Tahoma, Helvetica, Arial;
+	font-size: 13px;
+    border-bottom: 1px solid black;
+    -webkit-box-shadow: 0 1px gainsboro;
+    -moz-box-shadow: 0 1px #575e67;
+    box-shadow: 0 1px #3A3938;
+   padding:5px;
+    background:url(../images/back.jpg );
+    color:lightslategrey;
+}
+.cw-StackPanelHeader {
+  padding-left: 7px;
+  font-weight: bold;
+  padding-bottom:5px;
+}
+.cw-MenuHeader
+{
+	padding-left: 5px;
+}
+.hyper
+{
+	cursor:pointer;
+	cursor:hand;
+	word-wrap: normal;
+}
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+
+.fullscreen
+{
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+#footer
+{
+	background : url("images/bg-footer-noise.jpg") repeat-x scroll 0 bottom #1B1B1B;
+	height:35px;
+	color:gainsboro;
+}
+#topline
+{
+	background: transparent url( images/topback.jpg ) repeat-y ;
+	/*background : url("images/linebar.png") repeat-x scroll 0 bottom;
+	height:2px;
+	*/
+	margin: auto;
+    width: 100%;
+    height: 100%;    
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.constrain {
+    margin: 0 auto;
+    max-width: 1240px;
+    padding: 0 20px;
+}
+#main {
+   height:400px;
+}
+.noScrollbars {
+overflow: hidden !important;
+}
+#top
+{
+	color:white;
+}
+#top a, a:visited {
+  color: white;
+  text-decoration:none;
+}
+
+#top a:hover {
+  color: white;
+  text-decoration:underline;
+}
+.loginBackgroundFG
+{
+	/* background: url(images/back.jpg) ; */
+	color:gainsboro;
+	border:1px solid gainsboro;
+	/*opacity: 0.7;*/
+	border-radius:50;
+	/*margin-left:200;*/
+	margin-top:150;
+	background: dimgray;
+	box-shadow: 1px 2px 1px 1px black;
+}
+.loginBackgroundOAM
+{
+	 background:#973348;
+	color:gainsboro;
+	border:1px solid gainsboro;
+	/*opacity: 0.7;*/
+	border-radius:30px;
+	/*margin-left:200;*/
+	width:300px;
+	height:200px;
+	margin-top:70px;
+	margin-left: -150px;
+	box-shadow: 1px 2px 1px 1px black;
+}
+menu, ol, ul {
+   /* list-style: none outside none;*/
+	margin: 10;
+    
+}
+.yt-uix-button-content {
+    background: url("http://s.ytimg.com/yt/imgbin/www-refresh-vflXkUAsM.png") no-repeat scroll -86px 0 transparent;
+    border: medium none;
+    box-shadow: none;
+    display: block;
+    height: 14px;
+    opacity: 0.6;
+    padding: 0;
+    text-indent: -10000px;
+    width: 14px;
+}
+.search-btn-compontent {
+
+    float: right;
+    height: 30px;
+
+}
+.browse-content {
+    background: -moz-linear-gradient(left center , transparent, transparent 165px,
+	rgba(0, 0, 0, 0.08) 194px,
+	rgba(0, 0, 0, 0.12) 195px,
+	transparent 195px,
+	transparent 100%) repeat scroll 0 0 transparent;
+}
+#browse-side-column{
+    margin: 0;
+    padding: 0;
+    width: 195px;
+    background: url("images/menu_back.png") ;
+}
+.roshanback
+{
+	/*background: url(images/roshanpkg_back.png) no-repeat;
+	height:100px;*/
+	background: url("images/back.jpg") repeat left top;
+	padding: 14px 0 0 0;
+	clear: both;
+	position: relative;
+	zoom: 1;
+	height:100px;
+}
+
+.mainPanelFG
+{
+	/*background:#838080*/
+	background:url("images/tawaf.jpg") no-repeat center center fixed ;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	 -o-background-size: cover;
+  	background-size: cover;
+}
+.mainPanelD
+{
+	background:#F4F3EC;
+}
+/* Suggest Box */
+
+/* la suggest box STANDARD */
+.eu-nextstreet-SuggestFieldPanel {
+
+}
+
+.eu-nextstreet-SuggestFieldPanel .eu-nextstreet-SuggestFieldPanel-left {
+	background-color: #eaeff7;
+}
+
+.eu-nextstreet-SuggestFieldPanel .eu-nextstreet-SuggestFieldPanel-left .eu-nextstreet-SuggestFieldPanel-leftInner
+	{
+	padding: 6px 0 6px 6px;
+}
+
+.eu-nextstreet-SuggestFieldPanel .eu-nextstreet-SuggestFieldPanel-content
+	{
+	background-color: #eaeff7;
+	padding: 6px 0 6px 0;
+}
+
+.eu-nextstreet-SuggestFieldPanel .eu-nextstreet-SuggestFieldPanel-right
+	{
+	background-color: #eaeff7;
+}
+
+.eu-nextstreet-SuggestFieldPanel .eu-nextstreet-SuggestFieldPanel-right .eu-nextstreet-SuggestFieldPanel-rightInner
+	{
+	padding: 6px 6px 6px 0;
+}
+
+.eu-nextstreet-SuggestItemSelected {
+	background-color: #c9dcfe;
+	color: black;
+	font-weight: bold;
+}
+
+.eu-nextstreet-SuggestItemHover {
+	font-weight: bold;
+}
+
+.eu-nextstreet-SuggestMatchingString {
+	font-weight: bold;
+	color: #1aae1d;
+}
+
+.eu-nextstreet-SuggestField {
+	background: white url('img/arrow.png') no-repeat right 5px;
+}
+
+.eu-nextstreet-SuggestPopup {
+	background-color: #eaeff7;
+	border-top: 0px;
+	border-left: 1px solid #c9dcfe;
+	border-bottom: 1px solid #c9dcfe;
+	border-right: 1px solid #c9dcfe;
+	padding: 5px;
+}
+
+.eu-nextstreet-SuggestFieldHover {
+	cursor: pointer;
+}
+
+.eu-nextstreet-AdvancedTextBoxDefaultText {
+	color: #9999BB;
+}
+
+.eu-nextstreet-AdvancedTextBoxErrorText {
+	background-color: #ee4444;
+	color: white;
+	border: red;
+}
+
+.eu-nextstreet-AdvancedTextBoxMandatoryText {
+	background-color: #aa9999;
+}
+
+.eu-nextstreet-AdvancedTextBoxReadOnlyText {
+	background-color: #dddddd;
+	color: gray;
+}
+
+.eu-nextstreet-SuggestFieldPopupSimpleTableCell {
+
+}
+
+.eu-nextstreet-SuggestFieldPopupSimpleTableCell-selected {
+	background-color: #aaffaa;
+}
+
+.eu-nextstreet-SuggestFieldPopupSimpleTableCell-hover {
+	font-weight: bold;
+}
+
+.eu-nextstreet-SuggestTableMatchingString {
+	background: transparent url( img/matching-str-bg.PNG ) repeat-x left top
+		;
+}
+.frameTitle
+{
+	color: darkblue;
+    font-family: Tahoma,Arial,Helvetica,Sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.backgroundLabel
+{
+	background:#3C1D34;
+	padding:1px 5px 1px 5px;color:white;
+	white-space : nowrap;
+}
+.titleLabel
+{
+	font-family: Tahoma,Arial,Helvetica,Sans-serif;
+    font-size: 11px;
+	border-bottom:1px dashed gray;
+	display: inline;
+}
+.whiteLabel , #loginName
+{
+	font-family: Arial,Helvetica,Sans-serif;
+    font-size: 12px;
+    color:gainsboro;
+    padding-right:10px;
+}
+.f11B
+{
+	font-weight:bold;
+}
+.searchingOptions
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	color : black;
+	background: #CBCBCB;
+	border-bottom:1px solid gray;
+	padding:2px 2px 2px 7px;
+}
+#cord
+{
+	background-color: #F4F3EC;
+}
+#menubar
+{
+	background-color: #1F1F1F;
+}
+@font-face { font-family: JuneBug; src: url('Mael.ttf'); }
+.umraOperation
+{
+	font-family: 'Oxygen',sans-serif;
+	font-size: 35px;
+	color:beige;
+	padding-left:20px;
+	text-shadow: 0px 0px 7px black;
+	margin-left:10px;
+}
+.loginInfoFlex
+{
+	color:black;
+}
+.flexPartition {
+background: url("http://asset2.cbsistatic.com/cnwk.1d/i/tron/download/rebrand/dots-dark.png") no-repeat center -2px;
+content: "";
+display: inline-block;
+margin: 0 6px 0 9px;
+width: 4px;
+height: 5px;
+}
+.loginLabels
+{
+	color:black;
+}
+.alerts
+{
+	color:rgb(234, 230, 230);
+	font-weight:bold;
+}
+.loginLabels-Calendar
+{
+	color:yellow;
+}
+.loginLabels:hover
+{
+	text-decoration:underline;
+	cursor:pointer;
+}
+.loginLabels-Calendar:hover
+{
+	text-decoration:underline;
+	cursor:pointer;
+}
+ .alertsBlue
+{
+	color:darkred;
+	cursor:pointer;
+	cursor:hand;
+	font-weight:bold;
+}
+.rajjab
+{
+	background : cyan;
+}
+.shaban
+{
+	background : lightgreen;
+}
+.ramadhan
+{
+	background : lightpink;
+}
+.social
+{
+	height:10px;
+	background:#232328;
+	padding:1px; 	
+}	
+.socialRemove
+{
+	height:0px;	 	
+}
+.main_image
+{
+	border-radius : 50%;
+	padding:3px;
+	border : 1px solid black;
+}
+.imageTitle
+{
+	font-face:verdana,sans-serif,arial;
+	font-size : 20px;
+	color : steelblue;
+}
+.msgBoard
+{
+	height:100px;
+	background:#D3AF37; 
+}
+.msgBoardRemove
+{
+	height:0px;
+	background:none; 
+}
+
+.logoTitleDreams
+{
+	background : url("images/dreams.png") no-repeat;
+	width:300px;
+	height:50px;
+}
+.logoTitle:before
+{
+	color: white;
+    content: "Your Company Name";
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    height: 50px;
+    padding-left: 10px;
+    width: 300px;
+}
+#loading
+{
+	display:block;
+	position : absolute;
+	top:25%;
+	left:40%;
+	text-align:center;	
+}
+.stackItemMiddleCenter:hover
+{
+    background : #353232;
+    cursor : pointer;
+}
+.gwt-MenuBar tr:hover
+{
+    background : #353232;
+}
+.gwt-MenuBar tr:hover
+{
+    background : #353232;
+}
+#logoTitle
+{
+	font-size : 25px;
+}
+.hand
+{
+	cursor: pointer;
+}
+::-webkit-input-placeholder, 
+::-moz-placeholder,
+:-ms-input-placeholder,
+:-moz-placeholder {
+  color: pink;
+}
+.userName
+{
+	  background: #FFF url(images/username.png) no-repeat 6px 6px;
+    padding-left : 25px; 
+    border: 1px solid #c5c5c5;    
+    height : 25px;     
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    margin: 0;
+    font: inherit;
+    line-height: normal;
+    border-radius: 1px;
+    color: #474747;    
+    padding-right : 7px;
+	height:35px;
+}	
+.password
+{
+	
+	  background: #FFF url(images/password.png) no-repeat 6px 6px;
+    padding-left : 25px; 
+    border: 1px solid #c5c5c5;    
+    height : 25px;     
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    margin: 0;
+    font: inherit;
+    line-height: normal;
+    border-radius: 1px;
+    color: #474747;    
+    padding-right : 7px;
+	height:35px;
+}	
+.loginButton
+{
+	background: none repeat scroll 0 0 #FF3333;
+    border: 1px solid white;
+    color: white;
+    padding: 6px;
+    width: 100px;
+}
+.loginTopBack
+{
+	/*background: none repeat scroll 0 0 #669999;*/
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
+}
+.loginBottomBack
+{
+	/*background: none repeat scroll 0 0 #669999;*/
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.2);
+}
+.loginTopLabel
+{
+		font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+		font-size: 23px;
+		font-style: normal;
+		font-variant: bold;
+		font-weight: 500;
+		line-height: 26.4px;
+		color:white;
+		margin-left: 20px;
+    	margin-top: 10px;
+}
+.copyright
+{
+	font-size:12px;
+	color: white;
+	margin-top:10px;
+	text-align:center;
+}
+.seperator
+{
+	border-bottom: 1px solid #175F9C;
+    box-shadow: 0 1px #104B7D;
+    font-family: Tahoma,Helvetica,Arial;
+    font-size: 13px;
+    padding: 5px;
+	color:gainsboro;
+}
+.createLink
+{
+	background: none repeat scroll 0 0 #FF3333;
+    border: 1px solid white;
+    color: white;
+    padding: 6px;    
+}

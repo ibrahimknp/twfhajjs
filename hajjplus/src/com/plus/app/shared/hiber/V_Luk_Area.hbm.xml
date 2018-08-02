@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC	"-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd"> 
+
+  <hibernate-mapping package="com.plus.app.shared.dao">
+<class name="V_Luk_Area" table="V_Luk_Area">
+<id name="id" column="lar_id" type="java.lang.Long" />
+<property name="lar_area_name_ar" type="java.lang.String" />
+<property name="lar_area_name_la" type="java.lang.String" />
+<property name="lar_city_id" type="java.lang.Long" />
+<property name="lar_status" type="java.lang.Integer" />
+<property name="lar_res_name" type="java.lang.String" />
+<property name="lar_res_phone" type="java.lang.String" />
+<property name="lar_res_mobile" type="java.lang.String" />
+<property name="udate" type="java.util.Date" />
+</class>
+</hibernate-mapping>

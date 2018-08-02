@@ -1,0 +1,2 @@
+serviceClass: com.plus.app.client.GreetingService
+path: 29A288DE7DADBC9F109E60CBDE529B06.gwt.rpc

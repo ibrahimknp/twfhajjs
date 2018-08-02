@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee">
+
+	<filter>
+		<filter-name>gwtCacheControlFilter</filter-name>
+		<filter-class>com.plus.app.server.GWTCacheControlFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>gwtCacheControlFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+  <!-- Servlets -->
+  <servlet>
+    <servlet-name>greetServlet</servlet-name>
+    <servlet-class>com.plus.app.server.GreetingServiceImpl</servlet-class>
+  </servlet>
+  <servlet>
+	<servlet-name>Generic</servlet-name>
+	<servlet-class>com.plus.app.server.async.Generic_ServiceImpl</servlet-class>
+  </servlet>  
+   <servlet>
+	<servlet-name>V_Cases_Request</servlet-name>
+	<servlet-class>com.plus.app.server.async.V_Cases_Request_ServiceImpl</servlet-class>
+  </servlet>
+   <servlet>
+	<servlet-name>V_Cases_Types</servlet-name>
+	<servlet-class>com.plus.app.server.async.V_Cases_Types_ServiceImpl</servlet-class>
+  </servlet>
+   <servlet>
+	<servlet-name>V_Luk_City</servlet-name>
+	<servlet-class>com.plus.app.server.async.V_Luk_City_ServiceImpl</servlet-class>
+  </servlet>
+   <servlet>
+	<servlet-name>V_Luk_Area</servlet-name>
+	<servlet-class>com.plus.app.server.async.V_Luk_Area_ServiceImpl</servlet-class>
+  </servlet>
+   <servlet>
+	<servlet-name>Cases_Request</servlet-name>
+	<servlet-class>com.plus.app.server.async.Cases_Request_ServiceImpl</servlet-class>
+  </servlet>
+  <!--ServletName-->
+
+
+
+
+
+  
+  <servlet-mapping>
+    <servlet-name>greetServlet</servlet-name>
+    <url-pattern>/hajjplus/greet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+ 	<servlet-name>Generic</servlet-name>
+ 	<url-pattern>/hajjplus/V_Cases_Request</url-pattern>
+  </servlet-mapping>  
+   <servlet-mapping>
+ 	<servlet-name>V_Cases_Request</servlet-name>
+ 	<url-pattern>/hajjplus/V_Cases_Request</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+ 	<servlet-name>V_Cases_Types</servlet-name>
+ 	<url-pattern>/hajjplus/V_Cases_Types</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+ 	<servlet-name>V_Luk_City</servlet-name>
+ 	<url-pattern>/hajjplus/V_Luk_City</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+ 	<servlet-name>V_Luk_Area</servlet-name>
+ 	<url-pattern>/hajjplus/V_Luk_Area</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+ 	<servlet-name>Cases_Request</servlet-name>
+ 	<url-pattern>/hajjplus/Cases_Request</url-pattern>
+  </servlet-mapping>
+  <!--ServletMapping-->
+
+
+
+
+
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>
+
+
+
+
+
+

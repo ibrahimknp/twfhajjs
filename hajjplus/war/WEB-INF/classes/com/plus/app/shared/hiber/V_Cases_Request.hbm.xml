@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC	"-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd"> 
+
+  <hibernate-mapping package="com.plus.app.shared.dao">
+<class name="V_Cases_Request" table="V_Cases_Request">
+<id name="id" column="cr_code" type="java.lang.Long" />
+<property name="cr_type" type="java.lang.Integer" />
+<property name="cr_city_id" type="java.lang.Long" />
+<property name="cr_city_name_ar" type="java.lang.String" />
+<property name="cr_city_name_la" type="java.lang.String" />
+<property name="cr_area_id" type="java.lang.Long" />
+<property name="cr_area_name_ar" type="java.lang.String" />
+<property name="cr_area_name_la" type="java.lang.String" />
+<property name="cr_location" type="java.lang.String" />
+<property name="cr_c" type="java.lang.String" />
+<property name="cr_desc" type="java.lang.String" />
+<property name="cr_in_id" type="java.lang.String" />
+<property name="cr_inf_name" type="java.lang.String" />
+<property name="cr_inf_contact" type="java.lang.String" />
+<property name="cr_date_reg" type="java.util.Date" />
+<property name="cr_status" type="java.lang.Integer" />
+<property name="cr_status_ar" type="java.lang.String" />
+<property name="cr_status_la" type="java.lang.String" />
+<property name="cr_team" type="java.lang.String" />
+<property name="cr_reply" type="java.lang.String" />
+<property name="cr_udate" type="java.util.Date" />
+<property name="cr_medcr_id" type="java.lang.String" />
+<property name="cr_medcr_name_ar" type="java.lang.String" />
+<property name="cr_medcr_name_la" type="java.lang.String" />
+<property name="cr_team_id" type="java.lang.String" />
+<property name="cr_team_name" type="java.lang.String" />
+<property name="cr_date_status" type="java.lang.String" />
+</class>
+</hibernate-mapping>
