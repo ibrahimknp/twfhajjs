@@ -1,179 +1,8 @@
-2018-08-02 04:29:16,787 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Thu Aug 02 04:29:16 AST 2018
-2018-08-02 04:40:33,520 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Thu Aug 02 04:40:33 AST 2018
-2018-08-02 04:45:10,096 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Thu Aug 02 04:45:10 AST 2018
-2018-08-02 05:50:44,976 [btpool0-16] ERROR org.hibernate.util.JDBCExceptionReporter - [OraDriver] #38 java.net.SocketTimeoutException: Read timed out
-2018-08-02 05:50:44,978 [btpool0-16] ERROR com.plus.app.server.async.V_Cases_Request_ServiceImpl - getListData
-org.hibernate.exception.GenericJDBCException: Cannot open connection
-	at org.hibernate.exception.SQLStateConverter.handledNonSpecificException(SQLStateConverter.java:103)
-	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:91)
-	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:43)
-	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:29)
-	at org.hibernate.jdbc.ConnectionManager.openConnection(ConnectionManager.java:426)
-	at org.hibernate.jdbc.ConnectionManager.getConnection(ConnectionManager.java:144)
-	at org.hibernate.jdbc.JDBCContext.connection(JDBCContext.java:119)
-	at org.hibernate.transaction.JDBCTransaction.begin(JDBCTransaction.java:57)
-	at org.hibernate.impl.SessionImpl.beginTransaction(SessionImpl.java:1326)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.hibernate.context.ThreadLocalSessionContext$TransactionProtectionWrapper.invoke(ThreadLocalSessionContext.java:301)
-	at com.sun.proxy.$Proxy22.beginTransaction(Unknown Source)
-	at com.plus.app.server.async.V_Cases_Request_ServiceImpl.getListData(V_Cases_Request_ServiceImpl.java:183)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at com.google.gwt.user.server.rpc.RPC.invokeAndEncodeResponse(RPC.java:562)
-	at com.google.gwt.user.server.rpc.RemoteServiceServlet.processCall(RemoteServiceServlet.java:207)
-	at com.google.gwt.user.server.rpc.RemoteServiceServlet.processPost(RemoteServiceServlet.java:243)
-	at com.google.gwt.user.server.rpc.AbstractRemoteServiceServlet.doPost(AbstractRemoteServiceServlet.java:62)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
-	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
-	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1097)
-	at com.plus.app.server.GWTCacheControlFilter.doFilter(GWTCacheControlFilter.java:71)
-	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1088)
-	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
-	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
-	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
-	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
-	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:405)
-	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
-	at org.mortbay.jetty.handler.RequestLogHandler.handle(RequestLogHandler.java:49)
-	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
-	at org.mortbay.jetty.Server.handle(Server.java:324)
-	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
-	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:843)
-	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:647)
-	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
-	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
-	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
-	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
-Caused by: com.inet.ora.Ora3SQLException: [OraDriver] #38 java.net.SocketTimeoutException: Read timed out
-	at com.inet.ora.Ora3Factory.createSQLException(Unknown Source)
-	at com.inet.ora.OraConnection.b(Unknown Source)
-	at com.inet.ora.OraConnection.setAutoCommit(Unknown Source)
-	at com.mchange.v2.c3p0.impl.NewProxyConnection.setAutoCommit(NewProxyConnection.java:881)
-	at org.hibernate.connection.C3P0ConnectionProvider.getConnection(C3P0ConnectionProvider.java:61)
-	at org.hibernate.jdbc.ConnectionManager.openConnection(ConnectionManager.java:423)
-	... 41 more
-2018-08-02 05:53:23,888 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Thu Aug 02 05:53:23 AST 2018
-2018-08-02 06:14:06,828 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Thu Aug 02 06:14:06 AST 2018
-2018-08-02 06:18:29,641 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Thu Aug 02 06:18:29 AST 2018
-2018-08-02 06:21:45,966 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Thu Aug 02 06:21:45 AST 2018
-2018-08-02 06:29:38,967 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Thu Aug 02 06:29:38 AST 2018
-2018-08-02 06:40:16,437 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Thu Aug 02 06:40:16 AST 2018
-2018-08-02 06:42:38,506 [btpool0-6] ERROR org.hibernate.util.JDBCExceptionReporter - [Oracle] #3 ORA-01438: value larger than specified precision allowed for this column
-
-2018-08-02 06:42:38,508 [btpool0-6] ERROR org.hibernate.event.def.AbstractFlushingEventListener - Could not synchronize database state with session
-org.hibernate.exception.DataException: Could not execute JDBC batch update
-	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:77)
-	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:43)
-	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:253)
-	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:237)
-	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:141)
-	at org.hibernate.event.def.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:298)
-	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:27)
-	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1000)
-	at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:338)
-	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:106)
-	at com.plus.app.server.async.Cases_Request_ServiceImpl.save(Cases_Request_ServiceImpl.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at com.google.gwt.user.server.rpc.RPC.invokeAndEncodeResponse(RPC.java:562)
-	at com.google.gwt.user.server.rpc.RemoteServiceServlet.processCall(RemoteServiceServlet.java:207)
-	at com.google.gwt.user.server.rpc.RemoteServiceServlet.processPost(RemoteServiceServlet.java:243)
-	at com.google.gwt.user.server.rpc.AbstractRemoteServiceServlet.doPost(AbstractRemoteServiceServlet.java:62)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
-	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
-	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1097)
-	at com.plus.app.server.GWTCacheControlFilter.doFilter(GWTCacheControlFilter.java:71)
-	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1088)
-	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
-	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
-	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
-	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
-	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:405)
-	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
-	at org.mortbay.jetty.handler.RequestLogHandler.handle(RequestLogHandler.java:49)
-	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
-	at org.mortbay.jetty.Server.handle(Server.java:324)
-	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
-	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:843)
-	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:647)
-	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
-	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
-	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
-	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
-Caused by: java.sql.BatchUpdateException: [Oracle] #3 ORA-01438: value larger than specified precision allowed for this column
-
-	at com.inet.ora.OraPreparedStatement.executeBatch(Unknown Source)
-	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1723)
-	at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:48)
-	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:246)
-	... 38 more
-2018-08-02 06:42:38,512 [btpool0-6] ERROR com.plus.app.server.async.Cases_Request_ServiceImpl - save
-org.hibernate.exception.DataException: Could not execute JDBC batch update
-	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:77)
-	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:43)
-	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:253)
-	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:237)
-	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:141)
-	at org.hibernate.event.def.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:298)
-	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:27)
-	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1000)
-	at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:338)
-	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:106)
-	at com.plus.app.server.async.Cases_Request_ServiceImpl.save(Cases_Request_ServiceImpl.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at com.google.gwt.user.server.rpc.RPC.invokeAndEncodeResponse(RPC.java:562)
-	at com.google.gwt.user.server.rpc.RemoteServiceServlet.processCall(RemoteServiceServlet.java:207)
-	at com.google.gwt.user.server.rpc.RemoteServiceServlet.processPost(RemoteServiceServlet.java:243)
-	at com.google.gwt.user.server.rpc.AbstractRemoteServiceServlet.doPost(AbstractRemoteServiceServlet.java:62)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
-	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
-	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1097)
-	at com.plus.app.server.GWTCacheControlFilter.doFilter(GWTCacheControlFilter.java:71)
-	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1088)
-	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
-	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
-	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
-	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
-	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:405)
-	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
-	at org.mortbay.jetty.handler.RequestLogHandler.handle(RequestLogHandler.java:49)
-	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
-	at org.mortbay.jetty.Server.handle(Server.java:324)
-	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
-	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:843)
-	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:647)
-	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
-	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
-	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
-	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
-Caused by: java.sql.BatchUpdateException: [Oracle] #3 ORA-01438: value larger than specified precision allowed for this column
-
-	at com.inet.ora.OraPreparedStatement.executeBatch(Unknown Source)
-	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1723)
-	at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:48)
-	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:246)
-	... 38 more
-2018-08-02 06:57:23,078 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Thu Aug 02 06:57:23 AST 2018
-2018-08-02 07:05:10,103 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Destroy Thu Aug 02 07:05:10 AST 2018
-2018-08-02 16:15:30,479 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Thu Aug 02 16:15:30 AST 2018
-2018-08-02 20:52:53,736 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Thu Aug 02 20:52:53 AST 2018
-2018-08-02 21:05:45,106 [btpool0-1] ERROR org.hibernate.util.JDBCExceptionReporter - Connections could not be acquired from the underlying database!
-2018-08-02 21:05:45,106 [btpool0-2] ERROR org.hibernate.util.JDBCExceptionReporter - Connections could not be acquired from the underlying database!
-2018-08-02 21:05:45,106 [btpool0-3] ERROR org.hibernate.util.JDBCExceptionReporter - Connections could not be acquired from the underlying database!
-2018-08-02 21:05:45,110 [btpool0-2] ERROR com.plus.app.server.async.V_Luk_City_ServiceImpl - getListData
+2018-08-03 05:44:06,180 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Fri Aug 03 05:44:06 AST 2018
+2018-08-03 05:45:42,490 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Fri Aug 03 05:45:42 AST 2018
+2018-08-03 06:01:47,770 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Fri Aug 03 06:01:47 AST 2018
+2018-08-03 06:06:48,423 [btpool0-5] ERROR org.hibernate.util.JDBCExceptionReporter - [OraDriver] #5 java.net.SocketTimeoutException: Read timed out
+2018-08-03 06:06:48,438 [btpool0-5] ERROR com.plus.app.server.async.V_Luk_City_ServiceImpl - getListData
 org.hibernate.exception.GenericJDBCException: Cannot open connection
 	at org.hibernate.exception.SQLStateConverter.handledNonSpecificException(SQLStateConverter.java:103)
 	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:91)
@@ -221,20 +50,16 @@ org.hibernate.exception.GenericJDBCException: Cannot open connection
 	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
 	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
 	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
-Caused by: java.sql.SQLException: Connections could not be acquired from the underlying database!
-	at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:106)
-	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:529)
-	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getConnection(AbstractPoolBackedDataSource.java:128)
-	at org.hibernate.connection.C3P0ConnectionProvider.getConnection(C3P0ConnectionProvider.java:56)
+Caused by: com.inet.ora.Ora3SQLException: [OraDriver] #5 java.net.SocketTimeoutException: Read timed out
+	at com.inet.ora.Ora3Factory.createSQLException(Unknown Source)
+	at com.inet.ora.OraConnection.b(Unknown Source)
+	at com.inet.ora.OraConnection.setAutoCommit(Unknown Source)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.setAutoCommit(NewProxyConnection.java:881)
+	at org.hibernate.connection.C3P0ConnectionProvider.getConnection(C3P0ConnectionProvider.java:61)
 	at org.hibernate.jdbc.ConnectionManager.openConnection(ConnectionManager.java:423)
 	... 41 more
-Caused by: com.mchange.v2.resourcepool.CannotAcquireResourceException: A ResourcePool could not acquire a resource from its primary factory or source.
-	at com.mchange.v2.resourcepool.BasicResourcePool.awaitAvailable(BasicResourcePool.java:1319)
-	at com.mchange.v2.resourcepool.BasicResourcePool.prelimCheckoutResource(BasicResourcePool.java:557)
-	at com.mchange.v2.resourcepool.BasicResourcePool.checkoutResource(BasicResourcePool.java:477)
-	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:525)
-	... 44 more
-2018-08-02 21:05:45,110 [btpool0-1] ERROR com.plus.app.server.async.V_Cases_Request_ServiceImpl - getListData
+2018-08-03 06:06:48,467 [btpool0-2] ERROR org.hibernate.util.JDBCExceptionReporter - [OraDriver] #4 java.net.SocketTimeoutException: Read timed out
+2018-08-03 06:06:48,467 [btpool0-2] ERROR com.plus.app.server.async.V_Luk_City_ServiceImpl - getListData
 org.hibernate.exception.GenericJDBCException: Cannot open connection
 	at org.hibernate.exception.SQLStateConverter.handledNonSpecificException(SQLStateConverter.java:103)
 	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:91)
@@ -251,7 +76,7 @@ org.hibernate.exception.GenericJDBCException: Cannot open connection
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.hibernate.context.ThreadLocalSessionContext$TransactionProtectionWrapper.invoke(ThreadLocalSessionContext.java:301)
 	at com.sun.proxy.$Proxy22.beginTransaction(Unknown Source)
-	at com.plus.app.server.async.V_Cases_Request_ServiceImpl.getListData(V_Cases_Request_ServiceImpl.java:183)
+	at com.plus.app.server.async.V_Luk_City_ServiceImpl.getListData(V_Luk_City_ServiceImpl.java:183)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -282,20 +107,16 @@ org.hibernate.exception.GenericJDBCException: Cannot open connection
 	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
 	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
 	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
-Caused by: java.sql.SQLException: Connections could not be acquired from the underlying database!
-	at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:106)
-	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:529)
-	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getConnection(AbstractPoolBackedDataSource.java:128)
-	at org.hibernate.connection.C3P0ConnectionProvider.getConnection(C3P0ConnectionProvider.java:56)
+Caused by: com.inet.ora.Ora3SQLException: [OraDriver] #4 java.net.SocketTimeoutException: Read timed out
+	at com.inet.ora.Ora3Factory.createSQLException(Unknown Source)
+	at com.inet.ora.OraConnection.b(Unknown Source)
+	at com.inet.ora.OraConnection.setAutoCommit(Unknown Source)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.setAutoCommit(NewProxyConnection.java:881)
+	at org.hibernate.connection.C3P0ConnectionProvider.getConnection(C3P0ConnectionProvider.java:61)
 	at org.hibernate.jdbc.ConnectionManager.openConnection(ConnectionManager.java:423)
 	... 41 more
-Caused by: com.mchange.v2.resourcepool.CannotAcquireResourceException: A ResourcePool could not acquire a resource from its primary factory or source.
-	at com.mchange.v2.resourcepool.BasicResourcePool.awaitAvailable(BasicResourcePool.java:1319)
-	at com.mchange.v2.resourcepool.BasicResourcePool.prelimCheckoutResource(BasicResourcePool.java:557)
-	at com.mchange.v2.resourcepool.BasicResourcePool.checkoutResource(BasicResourcePool.java:477)
-	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:525)
-	... 44 more
-2018-08-02 21:05:45,110 [btpool0-3] ERROR com.plus.app.server.async.V_Cases_Types_ServiceImpl - getListData
+2018-08-03 06:07:56,819 [btpool0-5] ERROR org.hibernate.util.JDBCExceptionReporter - [OraDriver] #7 java.net.SocketTimeoutException: Read timed out
+2018-08-03 06:07:56,819 [btpool0-5] ERROR com.plus.app.server.async.V_Cases_Types_ServiceImpl - getListData
 org.hibernate.exception.GenericJDBCException: Cannot open connection
 	at org.hibernate.exception.SQLStateConverter.handledNonSpecificException(SQLStateConverter.java:103)
 	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:91)
@@ -343,16 +164,68 @@ org.hibernate.exception.GenericJDBCException: Cannot open connection
 	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
 	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
 	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
-Caused by: java.sql.SQLException: Connections could not be acquired from the underlying database!
-	at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:106)
-	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:529)
-	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getConnection(AbstractPoolBackedDataSource.java:128)
-	at org.hibernate.connection.C3P0ConnectionProvider.getConnection(C3P0ConnectionProvider.java:56)
+Caused by: com.inet.ora.Ora3SQLException: [OraDriver] #7 java.net.SocketTimeoutException: Read timed out
+	at com.inet.ora.Ora3Factory.createSQLException(Unknown Source)
+	at com.inet.ora.OraConnection.b(Unknown Source)
+	at com.inet.ora.OraConnection.setAutoCommit(Unknown Source)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.setAutoCommit(NewProxyConnection.java:881)
+	at org.hibernate.connection.C3P0ConnectionProvider.getConnection(C3P0ConnectionProvider.java:61)
 	at org.hibernate.jdbc.ConnectionManager.openConnection(ConnectionManager.java:423)
 	... 41 more
-Caused by: com.mchange.v2.resourcepool.CannotAcquireResourceException: A ResourcePool could not acquire a resource from its primary factory or source.
-	at com.mchange.v2.resourcepool.BasicResourcePool.awaitAvailable(BasicResourcePool.java:1319)
-	at com.mchange.v2.resourcepool.BasicResourcePool.prelimCheckoutResource(BasicResourcePool.java:557)
-	at com.mchange.v2.resourcepool.BasicResourcePool.checkoutResource(BasicResourcePool.java:477)
-	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:525)
-	... 44 more
+2018-08-03 06:07:56,821 [btpool0-6] ERROR org.hibernate.util.JDBCExceptionReporter - [OraDriver] #6 java.net.SocketTimeoutException: Read timed out
+2018-08-03 06:07:56,821 [btpool0-6] ERROR com.plus.app.server.async.V_Luk_City_ServiceImpl - getListData
+org.hibernate.exception.GenericJDBCException: Cannot open connection
+	at org.hibernate.exception.SQLStateConverter.handledNonSpecificException(SQLStateConverter.java:103)
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:91)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:43)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:29)
+	at org.hibernate.jdbc.ConnectionManager.openConnection(ConnectionManager.java:426)
+	at org.hibernate.jdbc.ConnectionManager.getConnection(ConnectionManager.java:144)
+	at org.hibernate.jdbc.JDBCContext.connection(JDBCContext.java:119)
+	at org.hibernate.transaction.JDBCTransaction.begin(JDBCTransaction.java:57)
+	at org.hibernate.impl.SessionImpl.beginTransaction(SessionImpl.java:1326)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.hibernate.context.ThreadLocalSessionContext$TransactionProtectionWrapper.invoke(ThreadLocalSessionContext.java:301)
+	at com.sun.proxy.$Proxy22.beginTransaction(Unknown Source)
+	at com.plus.app.server.async.V_Luk_City_ServiceImpl.getListData(V_Luk_City_ServiceImpl.java:183)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.gwt.user.server.rpc.RPC.invokeAndEncodeResponse(RPC.java:562)
+	at com.google.gwt.user.server.rpc.RemoteServiceServlet.processCall(RemoteServiceServlet.java:207)
+	at com.google.gwt.user.server.rpc.RemoteServiceServlet.processPost(RemoteServiceServlet.java:243)
+	at com.google.gwt.user.server.rpc.AbstractRemoteServiceServlet.doPost(AbstractRemoteServiceServlet.java:62)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1097)
+	at com.plus.app.server.GWTCacheControlFilter.doFilter(GWTCacheControlFilter.java:71)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1088)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:729)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:405)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.handler.RequestLogHandler.handle(RequestLogHandler.java:49)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:843)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:647)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
+Caused by: com.inet.ora.Ora3SQLException: [OraDriver] #6 java.net.SocketTimeoutException: Read timed out
+	at com.inet.ora.Ora3Factory.createSQLException(Unknown Source)
+	at com.inet.ora.OraConnection.b(Unknown Source)
+	at com.inet.ora.OraConnection.setAutoCommit(Unknown Source)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.setAutoCommit(NewProxyConnection.java:881)
+	at org.hibernate.connection.C3P0ConnectionProvider.getConnection(C3P0ConnectionProvider.java:61)
+	at org.hibernate.jdbc.ConnectionManager.openConnection(ConnectionManager.java:423)
+	... 41 more

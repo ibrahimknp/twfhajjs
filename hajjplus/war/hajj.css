@@ -236,7 +236,7 @@ overflow: hidden !important;
     background-size: 100% auto;
     height: 400px;
     position: absolute;
-    width: 1024px;      	
+    width: 100%;      	
 }
 .mainPanelFG
 {

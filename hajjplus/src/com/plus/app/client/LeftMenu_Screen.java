@@ -8,7 +8,11 @@ import com.google.gwt.user.client.ui.MenuBar;
 import com.google.gwt.user.client.ui.MenuItem;
 import com.google.gwt.user.client.ui.Widget;
 import com.plus.app.client.lang.MyImagesResource;
+import com.plus.app.client.masters.Browse_Area_Screen;
+import com.plus.app.client.masters.Browse_CaseTypes_Screen;
+import com.plus.app.client.masters.Browse_City_Screen;
 import com.plus.app.client.operations.Browse_Complaints_Screen;
+import com.plus.app.client.operations.Hajies_Master_Screen;
 import com.plus.app.client.util.MyDecoratedStackPanel;
 import com.plus.app.client.util.MyErrorBox;
 import com.plus.app.client.util.MyVerticalPanel;
@@ -76,7 +80,7 @@ public class LeftMenu_Screen extends Composite{
 					{
 						public void execute()
 						{
-									new MenuAction(1,"1-1-1-1",Home_Screen.getInstance()).executeMenu();
+									new MenuAction(1,"1-1-1-1",Browse_City_Screen.getInstance()).executeMenu();
 						}
 					});
 					bar.addItem(menuItem);
@@ -85,7 +89,7 @@ public class LeftMenu_Screen extends Composite{
 					{
 						public void execute()
 						{
-									new MenuAction(1,"1-1-1-1",Home_Screen.getInstance()).executeMenu();
+									new MenuAction(1,"1-1-1-1",Browse_Area_Screen.getInstance()).executeMenu();
 						}
 					});
 					bar.addItem(menuItem);
@@ -97,13 +101,13 @@ public class LeftMenu_Screen extends Composite{
 									new MenuAction(1,"1-1-1-1",Home_Screen.getInstance()).executeMenu();
 						}
 					});
-					bar.addItem(menuItem);
+					//bar.addItem(menuItem);
 					menuItem = new MenuItem(Utils.getMenuString("Case Types",MyImagesResource.getImages().treeOpen()),true,new Cmd());
 					menuItem.setCommand(new Command()
 					{
 						public void execute()
 						{
-									new MenuAction(1,"1-1-1-1",Home_Screen.getInstance()).executeMenu();
+									new MenuAction(1,"1-1-1-1",Browse_CaseTypes_Screen.getInstance()).executeMenu();
 						}
 					});
 					bar.addItem(menuItem);
@@ -115,7 +119,9 @@ public class LeftMenu_Screen extends Composite{
 					{
 						public void execute()
 						{
-									new MenuAction(1,"1-1-1-1",Home_Screen.getInstance()).executeMenu();
+									//new MenuAction(1,"1-1-1-1",Home_Screen.getInstance()).executeMenu();
+									Hajies_Master_Screen haj =  Hajies_Master_Screen.getInstance();
+									PopupAction.getInstance().show(haj);
 						}
 					});
 					bar.addItem(menuItem);
