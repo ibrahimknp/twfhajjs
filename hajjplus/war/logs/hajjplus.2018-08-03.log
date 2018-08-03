@@ -229,3 +229,9 @@ Caused by: com.inet.ora.Ora3SQLException: [OraDriver] #6 java.net.SocketTimeoutE
 	at org.hibernate.connection.C3P0ConnectionProvider.getConnection(C3P0ConnectionProvider.java:61)
 	at org.hibernate.jdbc.ConnectionManager.openConnection(ConnectionManager.java:423)
 	... 41 more
+2018-08-03 07:35:32,026 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Fri Aug 03 07:35:32 AST 2018
+2018-08-03 07:37:51,928 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Fri Aug 03 07:37:51 AST 2018
+2018-08-03 07:41:59,168 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Fri Aug 03 07:41:59 AST 2018
+2018-08-03 07:43:41,902 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Fri Aug 03 07:43:41 AST 2018
+2018-08-03 07:46:28,398 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Fri Aug 03 07:46:28 AST 2018
+2018-08-03 07:48:22,452 [main] ERROR com.plus.app.server.GWTCacheControlFilter - Init Fri Aug 03 07:48:22 AST 2018

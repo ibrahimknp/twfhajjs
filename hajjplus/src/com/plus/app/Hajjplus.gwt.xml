@@ -11,6 +11,7 @@
     <inherits name="gwtupload.GWTUpload"/>
   <inherits name="com.google.code.p.gwtchismes.GWTChismes"/>
   <inherits name='com.allen_sauer.gwt.voices.gwt-voices'/>
+  
 
   <stylesheet src="GWTC-compressed.css"/>
   <stylesheet src="Upload.css"/>

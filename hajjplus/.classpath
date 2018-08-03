@@ -128,5 +128,6 @@
 	<classpathentry kind="lib" path="C:/workspace/hajjplus/war/WEB-INF/lib/xsdlib.jar"/>
 	<classpathentry kind="lib" path="C:/workspace/hajjplus/war/WEB-INF/lib/zxing-core-1.7.jar"/>
 	<classpathentry kind="lib" path="C:/workspace/hajjplus/war/WEB-INF/lib/zxing-j2se-1.7.jar"/>
+	<classpathentry kind="lib" path="C:/workspace/twfhajj/hajjplus/war/WEB-INF/lib/gwt-charts-0.9.9.jar"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>

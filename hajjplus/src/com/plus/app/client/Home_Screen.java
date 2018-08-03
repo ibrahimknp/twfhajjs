@@ -1,12 +1,14 @@
 package com.plus.app.client;
 
 import com.google.gwt.user.client.ui.Composite;
+import com.googlecode.gwt.charts.client.corechart.BarChart;
 import com.plus.app.client.impl.Main;
 import com.plus.app.client.util.MyVerticalPanel;
 
 public class Home_Screen extends Composite implements Main{
 	
 	private MyVerticalPanel			vMain;
+	private BarChart				chart;
 	
 	private static Home_Screen	instance;
 	public static Home_Screen	getInstance()
@@ -19,16 +21,14 @@ public class Home_Screen extends Composite implements Main{
 	
 	public Home_Screen() {
 		// TODO Auto-generated constructor stub
-		
+				
 		vMain = new MyVerticalPanel();
-		
-		
 		
 		
 		initWidget(vMain);
 	}
 
-	@Override
+		@Override
 	public void load() {
 		// TODO Auto-generated method stub
 		
